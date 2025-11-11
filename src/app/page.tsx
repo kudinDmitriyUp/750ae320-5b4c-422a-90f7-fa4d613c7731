@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -6,12 +6,12 @@ import HeroBillboardCorners from '@/components/sections/hero/HeroBillboardCorner
 import AboutFeature from '@/components/sections/about/AboutFeature';
 import FeatureCardSeven from '@/components/sections/feature/FeatureCardSeven';
 import PricingCardTwo from '@/components/sections/pricing/PricingCardTwo';
-import MetricCardTwo from '@/components/sections/metric/MetricCardTwo';
+import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Award, Crown, Dumbbell, Heart, MessageCircle, Sparkles, Star, TrendingUp, Trophy, Users, Zap } from "lucide-react";
+import { Award, Crown, Dumbbell, Heart, MessageCircle, Sparkles, Star, TrendingUp, Trophy, Users, Zap, Instagram, Facebook, Globe, Linkedin } from "lucide-react";
 
 export default function Page() {
   return (
@@ -283,11 +283,11 @@ export default function Page() {
               imageSrc: "https://pixabay.com/get/gc8339166d94b89c4bd79ed600f0dc2b66eb89df63ebe3cf9e9465c15f80adb465aaea77c3d323999cec65c49348efb2316c2e6b390e4c3490ca92367dfcc9105_1280.jpg",
               socialLinks: [
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com/rajesh_fitness"
                 },
                 {
-                  icon: "Facebook",
+                  icon: Facebook,
                   url: "https://facebook.com/rajeshtrainer"
                 }
               ]
@@ -300,11 +300,11 @@ export default function Page() {
               imageSrc: "https://pixabay.com/get/g493a3383519afee7224a66d840c4a728825e6daec57588cae0ce20ba97a3fce3a807df3a2f102d201b5af023f203ad7143d56730b419e7b2fbd2af3dcf6a7ae1_1280.jpg",
               socialLinks: [
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com/priya_yoga"
                 },
                 {
-                  icon: "Globe",
+                  icon: Globe,
                   url: "https://priyayoga.com"
                 }
               ]
@@ -317,11 +317,11 @@ export default function Page() {
               imageSrc: "https://pixabay.com/get/g309cbe36b7c43ae8ea073309f4fa337af86b5c917ea106240ef4eb2b5e2329f1aade6f9389f22c977a30eab7769639287a32d09b85eb848ef20800b5fe98f12d_1280.jpg",
               socialLinks: [
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com/amit_fitness"
                 },
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com/in/amitghosh"
                 }
               ]
